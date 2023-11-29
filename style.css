@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+h1 {
+  color: blue;
+  font-family: Arial;
+  font-size: 60px;
+}
+
+p {
+
+  font-size: 20px;
+  font-family: serif;
+}
+
+h2 {
+  color: purple;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+ul
+
+/* <-- Or " li (parent) " */
+  {
+  /*color: rgb(255, 120, 245);*/
+  list-style-type: circle;
+  ;
+}
+
+li {
+
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#secList {
+  color: navy;
+}
+
+.warn {
+  font-style: italic;
+}
+
+.menu ul{
+  list-style: none;
+  background-color: black;
+}
+.menu li{
+  color: white;
+  display: inline-block;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  /*
+    padding: 14px (shortcut: same for each side)
+  */
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.menu a:hover{
+  color: red;
+}
